@@ -7,3 +7,12 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
 }
+
+#scrollNoteContainer {
+    position: absolute;
+    margin: auto;
+    color: var(--accent-color);
+    font-size: 4rem;
+    bottom: 0;
+    transition: 0.5s;
+}

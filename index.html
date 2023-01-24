@@ -11,46 +11,24 @@
     <link rel="stylesheet" href="/res/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="/res/css/fonts.css">
     <link rel="stylesheet" href="/res/css/main.css">
-    <link rel="stylesheet" href="/res/css/navbar.css">
-    <link rel="stylesheet" href="/res/css/scrollback.css">
+    <link rel="stylesheet" href="/res/css/general.css">
+    <link rel="stylesheet" href="/res/css/index.css">
 </head>
 
 <body>
-    <nav>
-        <div class="nav_top_buttons">
-            <!-- what i do, Portfolio, About me, Contact -->
-            <a href="#" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-info-circle"></i>
-                </div>
-            </a>
-            <a href="#" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-book"></i>
-                </div>
-            </a>
-            <a href="#" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-user"></i>
-                </div>
-            </a>
-            <a href="#" class="nav-link">
-                <div class="navbar_icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-            </a>
+    <a href="#" class="nav-link nav-bottom" id="theme-link" onclick="cycleTheme();">
+        <div class="navbar_icon" id="theme-icon">
+            <div>
+                <i class="fas fa-adjust"></i>
+            </div>
         </div>
-        <div class="nav_bottom_buttons">
-            <a href="#" class="nav-link nav-bottom" id="theme-link" onclick="cycleTheme();">
-                <div class="navbar_icon" id="theme-icon">
-                    <div>
-                        <i class="fas fa-adjust"></i>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </nav>
+    </a>
     <main id="main">
+        <div class="section section-full-height center_container">
+            <div class="center_inner">
+                <h1 id="title">console.log("Hallo 👋 ich bin Konstantin");</h1>
+            </div>
+        </div>
     </main>
     <script src="/res/js/themes/themes.js"></script>
 </body>

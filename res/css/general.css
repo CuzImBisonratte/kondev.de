@@ -1,0 +1,27 @@
+#theme-icon {
+    position: absolute;
+    font-size: 2rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    color: var(--text-color);
+}
+
+#theme-icon div {
+    width: min-content;
+    height: min-content;
+    transition: transform 0.5s cubic-bezier(.5, -0.5, .5, 1.5);
+}
+
+.section-full-height {
+    height: 100vh;
+}
+
+.center_container {
+    display: grid;
+    place-items: center;
+}
+
+.center_inner {
+    width: fit-content;
+    height: fit-content;
+}

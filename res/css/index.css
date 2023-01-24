@@ -1,0 +1,8 @@
+#title {
+    font-size: calc( ( 100vw - 4rem) / 30);
+    background-image: linear-gradient(90deg, var(--accent-color), var(--accent2-color));
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}

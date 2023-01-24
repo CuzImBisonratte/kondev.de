@@ -31,8 +31,6 @@ body {
 }
 
 main {
-    /* Navbar edit */
-    width: calc(100vw - 5rem);
     margin-right: 5rem;
     min-height: 100%;
 }

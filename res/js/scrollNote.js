@@ -13,4 +13,4 @@ function scrollEvent() {
 window.addEventListener("scroll", scrollEvent);
 scrollEvent();
 
-scrollNote.addEventListener("click", () => window.scrollTo(0, window.screen.height));
+scrollNote.addEventListener("click", () => window.scrollTo(0, window.innerHeight));

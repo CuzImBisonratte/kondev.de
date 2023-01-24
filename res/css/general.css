@@ -17,7 +17,11 @@
 }
 
 .section-full-height {
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.section-half-height {
+    min-height: 50vh;
 }
 
 .center_container {
@@ -36,6 +40,6 @@
     flex-direction: row;
 }
 
-#card_info_section {
-    margin-top: 10rem;
+.footer {
+    background: linear-gradient(135deg, var(--accent-color), var(--accent2-color));
 }

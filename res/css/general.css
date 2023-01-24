@@ -12,6 +12,10 @@
     transition: transform 0.5s cubic-bezier(.5, -0.5, .5, 1.5);
 }
 
+.section {
+    width: 100%;
+}
+
 .section-full-height {
     height: 100vh;
 }
@@ -24,4 +28,14 @@
 .center_inner {
     width: fit-content;
     height: fit-content;
+}
+
+.section-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#card_info_section {
+    margin-top: 10rem;
 }

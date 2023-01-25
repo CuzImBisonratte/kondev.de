@@ -67,3 +67,20 @@ footer div {
         opacity: 1;
     }
 }
+
+#subfooter {
+    overflow: hidden;
+}
+
+.subfooter-in-animation {
+    animation: subfooter-in-animation 1s cubic-bezier(0, 1, 1, 0);
+}
+
+@keyframes subfooter-in-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

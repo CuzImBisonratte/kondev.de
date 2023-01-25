@@ -68,8 +68,18 @@ footer div {
     }
 }
 
+
+/* 
+Subfooter
+*/
+
 #subfooter {
     overflow: hidden;
+}
+
+#subfooter a {
+    text-decoration: none;
+    color: var(--accent-color);
 }
 
 .subfooter-in-animation {

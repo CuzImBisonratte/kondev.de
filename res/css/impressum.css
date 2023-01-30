@@ -1,0 +1,12 @@
+#impressum {
+    padding: 3rem;
+}
+
+#impressum h1 {
+    color: var(--accent-color);
+}
+
+a,
+hr {
+    color: var(--accent-color);
+}
